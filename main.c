@@ -21,10 +21,10 @@ int addition()
     float nombre2;
     float result;
     printf("Nombre 1 : ");
-    scanf("%d", &nombre1);
+    scanf("%f", &nombre1);
     printf("Nombre 2 : ");
-    scanf("%d", &nombre2);
+    scanf("%f", &nombre2);
     result = nombre1 + nombre2;
-    printf("Resultat :\n%d", result);
+    printf("Resultat :\n%f", result);
     return 0;
 }
