@@ -3,16 +3,18 @@
 
 int main()
 {
+    float resultat;
     int choix = 0;
     printf("Quelle operation ?");
     scanf("%d", &choix);
     switch (choix) {
         case 1 :
-            addition();
+            resultat = addition();
             break;
         default:
             break;
     }
+    printf("Resultat :\n%f", resultat);
     return 0;
 }
 int addition()
@@ -25,6 +27,6 @@ int addition()
     printf("Nombre 2 : ");
     scanf("%f", &nombre2);
     result = nombre1 + nombre2;
-    printf("Resultat :\n%f", result);
-    return 0;
+    
+    return result;
 }
