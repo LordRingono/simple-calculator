@@ -3,9 +3,9 @@
 
 int main()
 {
-    int nombre1;
-    int nombre2;
-    int result;
+    float nombre1;
+    float nombre2;
+    float result;
     printf("Nombre 1 : ");
     scanf("%d", &nombre1);
     printf("Nombre 2 : ");
