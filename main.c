@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float main()
+int main(int argc, char *argv[])
 {
     float resultat;
     int choix = 0;
@@ -17,7 +17,7 @@ float main()
     printf("Resultat :\n%f", resultat);
     return 0;
 }
-float addition()
+double addition(int argc, char *argv[])
 {
     float nombre1;
     float nombre2;
