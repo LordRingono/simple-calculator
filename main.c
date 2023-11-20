@@ -1,6 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+double addition()
+{
+    float nombre1;
+    float nombre2;
+    float result;
+    printf("Nombre 1 : ");
+    scanf("%f", &nombre1);
+    printf("Nombre 2 : ");
+    scanf("%f", &nombre2);
+    result = nombre1 + nombre2;
+    
+    return result;
+}
+
 int main(int argc, char *argv[])
 {
     float resultat;
@@ -16,17 +30,4 @@ int main(int argc, char *argv[])
     }
     printf("Resultat :\n%f", resultat);
     return 0;
-}
-double addition(int argc, char *argv[])
-{
-    float nombre1;
-    float nombre2;
-    float result;
-    printf("Nombre 1 : ");
-    scanf("%f", &nombre1);
-    printf("Nombre 2 : ");
-    scanf("%f", &nombre2);
-    result = nombre1 + nombre2;
-    
-    return result;
 }
