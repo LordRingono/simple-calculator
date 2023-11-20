@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+float main()
 {
     float resultat;
     int choix = 0;
@@ -17,7 +17,7 @@ int main()
     printf("Resultat :\n%f", resultat);
     return 0;
 }
-int addition()
+float addition()
 {
     float nombre1;
     float nombre2;
