@@ -3,6 +3,20 @@
 
 int main()
 {
+    int choix = 0;
+    printf("Quelle operation ?");
+    scanf("%d", &choix);
+    switch (choix) {
+        case 1 :
+            addition();
+            break;
+        default:
+            break;
+    }
+    return 0;
+}
+int addition()
+{
     float nombre1;
     float nombre2;
     float result;
@@ -11,6 +25,6 @@ int main()
     printf("Nombre 2 : ");
     scanf("%d", &nombre2);
     result = nombre1 + nombre2;
-    printf("Hello world!\n%d", result);
+    printf("Resultat :\n%d", result);
     return 0;
 }
