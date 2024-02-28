@@ -52,11 +52,12 @@ double division()
   printf("Nombre 2 : ");
   scanf("%f", &nombre2);
   if (nombre2 != 0) {
-    result = nombre1 - nombre2;
+    result = nombre1 / nombre2;
   }
   else {
-    result = 0;
-  }
+    printf("Erreur : vous ne pouvez pas viviser par 0");
+    exit(1);
+    }
   return result;
 }
 
